@@ -20,10 +20,12 @@ function valuesInObject(obj) {
   for (key in obj) {
     arr.push(obj[key]);
   }
-  console.log(arr)
+  //console.log(arr)
 
   //using Object.values()
-  console.log(Object.values(obj));
+  //console.log(Object.values(obj));
+
+  return arr;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

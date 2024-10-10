@@ -18,10 +18,12 @@ function keysInObject(obj) {
   for (key in obj) {
       arr.push(key);
   }
-  console.log(arr);
+  //console.log(arr);
 
   //using Object.keys()
-  console.log(Object.keys(obj));
+  //console.log(Object.keys(obj));
+
+  return arr;
 
 }
 

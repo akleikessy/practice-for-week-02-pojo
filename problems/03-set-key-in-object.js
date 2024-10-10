@@ -17,7 +17,7 @@ function setKeyInObject(obj, string, value) {
   // Your code here
   obj[string] = value;
 
-  console.log(obj);
+  //console.log(obj);
 
   return obj;
 

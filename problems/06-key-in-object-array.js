@@ -28,6 +28,14 @@ function keyInObjectArray(objArray, keyString) {
       return true;
     }
   } */
+/*
+    for (let obj of objArray) {
+      if (obj[keyString] !== undefined) {
+          console.log(true);
+          return true;
+      }
+  }
+*/
 
     for (let i = 0; i < objArray.length; i++) {
       let obj = objArray[i];
